@@ -1,0 +1,31 @@
+{
+  "accuracy": 85.88,
+  "precision": 22.15,
+  "recall": 76.3,
+  "f1": 34.33,
+  "roc_auc": 89.78,
+  "cv_f1_mean": 31.8,
+  "cv_f1_std": 3.48,
+  "train_size": 27222,
+  "test_size": 3576,
+  "n_trees": 100,
+  "features": [
+    "has_company",
+    "has_logo",
+    "has_questions",
+    "has_department",
+    "has_education",
+    "has_experience",
+    "desc_length",
+    "salary_realism",
+    "red_flag_score",
+    "legit_signal_score",
+    "is_remote",
+    "urgency_words",
+    "fee_words",
+    "fraud_words",
+    "vague_words",
+    "salary_unlimited",
+    "no_requirements"
+  ]
+}
